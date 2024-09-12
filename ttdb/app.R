@@ -12,6 +12,7 @@ library(RSQLite)
 library(openxlsx)
 
 #deneme degisikligi
+#deneme deneme
 
 # Veritabanı bağlantısını oluştur
 con <- dbConnect(RSQLite::SQLite(), "my_database.db")
