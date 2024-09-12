@@ -9,8 +9,7 @@
 library(shiny)
 library(DBI)
 library(RSQLite)
-library(openxlsx)
-değişim güncelleme
+library(openxlsx) 
 
 # Veritabanı bağlantısını oluştur
 con <- dbConnect(RSQLite::SQLite(), "my_database.db")
